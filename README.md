@@ -1,1 +1,5 @@
-A set of CSS challenges to play with. HTML and CSS only.
+A set of CSS challenges to play with. HTML and CSS only. 
+* Nomalize.css
+*BEM convention
+*CSS Properties
+git status
