@@ -1,7 +1,41 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: 0;
+}
+
+/* Style properties */
+:root {
+    --ff-primary:;
+    --ff-secondary:;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #333;
+    --clr-accent: #5e3b5e;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.75rem;
+    --fs-body: 1rem;
+
+    --bx-s: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+            0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+    .container {
+        flex-flow: row wrap;
+    }
+    
+    img {
+        width: 48%;
+        margin: 1em auto;
+        object-fit: cover;
+    } 
 }
 
 /* General Styles*/
@@ -18,16 +52,6 @@ img {
     object-fit: cover;
 }
 
-@media (min-width: 800px) {
-    .container {
-        flex-flow: row wrap;
-    }
-    
-    img {
-        width: 48%;
-        margin: 1em auto;
-        object-fit: cover;
-    } 
-}
+
 
 
