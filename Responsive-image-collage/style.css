@@ -97,6 +97,31 @@ p {
 img {
     width: 80%;
     object-fit: cover;
+    margin: 1em 0;
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 3rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.025rem;
+    }
+
+    .posts {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .post {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    img {
+        order: -1;
+    }
 }
 
 
