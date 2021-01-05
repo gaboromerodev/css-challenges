@@ -1,1 +1,4 @@
 Creating a responsive image collage layout. HTML and CSS only.
+* Use flex-box and flex-direction
+* Media queries
+* Image propertieslike object-fit
