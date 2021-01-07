@@ -179,6 +179,14 @@ img {
 
     .nav__item {
         display: inline-block;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        position: absolute;
+        float: left;
+        left: 2em;
     }
 }
 
