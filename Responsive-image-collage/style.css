@@ -138,6 +138,9 @@ header {
 .posts__header {
     background: var(--clr-accent);
     color: var(--clr-dark);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 2em;
 }
 
 .post__description {
